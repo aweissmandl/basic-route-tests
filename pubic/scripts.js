@@ -38,7 +38,11 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     // Use fetch to submit the form.
     const response = await fetch('/login', {
       method: 'POST',
-      body: formData,
+      // Turn the form data into a JSON string for the server.
+      body: JSON.stringify(Object.fromEntries(formData.entries())),
+      headers: {
+        'Content-Type': 'application/json',
+      },
     });
 
     // Show the response from the server.
