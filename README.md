@@ -24,6 +24,7 @@ The tests assert that
 3. There's a style.css file in the static directory
 4. The logic post request gets handled properly
 5. There's an EJS template that renders HTML
+6. The EJS template renders a name that is bound to the query's name
 
 ## Completing the assignment
 
