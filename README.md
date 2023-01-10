@@ -25,3 +25,14 @@ Upload an image to the classroom with all the tests passsing, see attached
 ![image](https://user-images.githubusercontent.com/1916443/211431425-1e192503-0449-4384-963e-5820872fd808.png)
 
 **The tests are not to be modified, only the code, fix the code to make the tests pass not the other way around**
+
+In order to ensure that you understood what is expected from you and used the correct technics to get the tests to pass, please provide a detailed explanation of the steps you used to get each test to work.
+
+### Grading
+
+- 50 percent of your grade is the successful submission of a screenshot and details about your process.
+- 10 points for each passing test (meaning that even if you only get one passing test, you'll have a passing grade)
+
+### Tips
+
+Look for mistakes in the code to see if there are any easy solutions to failing tests, some of the tests are simply testing your ability to detect small mistakes in the program. However, for one of the tests, you will have to implement a missing route and all the logic for it.
