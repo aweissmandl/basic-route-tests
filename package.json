@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Basic route tests",
   "scripts": {
-    "test": "mocha *.test.js"
+    "test": "mocha *.test.js",
+    "start" : "node index.js"
   },
   "private": true,
   "dependencies": {
