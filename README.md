@@ -1,8 +1,14 @@
 # Assignment
 In this assignment we will test your knowledge in express and EJS, while also testing your capabalities to debug existing code and apply fixes to it to make tests work.
 
-### Setup
-After downloading this repository, run the following 2 commands
+## Setup
+After downloading this repository, run the following 2 commands **from the root of the repository**
+
+### Download the repository and change into the root directory
+- `git clone https://github.com/Viewpoint-Programming-Class/basic-route-tests`
+- `cd basic-route-tests`
+
+### Install & run the project
 - npm install
 - npm test
 
