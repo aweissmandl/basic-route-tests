@@ -1,6 +1,8 @@
 ﻿const express = require('express');
 const app = express();
 
+app.use(express.json());
+
 // Serve all static files from the public folder.
 app.use(express.static('public'));
 
