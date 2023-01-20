@@ -2,6 +2,7 @@
 const app = express();
 
 app.use(express.json());
+app.set('view engin', 'ejs');
 
 // Serve all static files from the public folder.
 app.use(express.static('public'));
@@ -18,6 +19,10 @@ app.post('/login', (req, res) => {
     // If there is an error, send the error message.
     res.send(error.message);
   }
+});
+
+app.get('/template',(req,res) => {
+  res.render('index.ejs',{userName :req.query.name});
 });
 
 // Export the app so that it can be started in the tests.
